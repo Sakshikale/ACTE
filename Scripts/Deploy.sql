@@ -18,7 +18,8 @@ VALUES
 
     (2, 'Priya', 'Snowflake DevOps'),
 
-    (3, 'Kavya', 'Snowflake DevOps');
+    (3, 'Kavya', 'Snowflake DevOps'),
+    (4, 'Sakshi', 'Snowflake Devops');
  
 SELECT * FROM STUDENT_INFO;
  
