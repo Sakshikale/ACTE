@@ -1,0 +1,24 @@
+CREATE TABLE IF NOT EXISTS STUDENT_INFO (
+
+    STUDENT_ID NUMBER,
+
+    STUDENT_NAME VARCHAR(100),
+
+    COURSE VARCHAR(100)
+
+);
+ 
+INSERT INTO STUDENT_INFO
+
+    (STUDENT_ID, STUDENT_NAME, COURSE)
+
+VALUES
+
+    (1, 'Arun', 'Snowflake'),
+
+    (2, 'Priya', 'Snowflake DevOps'),
+
+    (3, 'Kavya', 'Snowflake DevOps');
+ 
+SELECT * FROM STUDENT_INFO;
+ 
