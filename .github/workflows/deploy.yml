@@ -6,7 +6,7 @@ on:
     branches:
       - main
     paths:
-      - 'scripts/**'
+      - 'Scripts/**'
       - '.github/workflows/deploy.yml'
   workflow_dispatch:
 
@@ -43,4 +43,4 @@ jobs:
           SNOWFLAKE_WAREHOUSE: DEVOPS_WH
           SNOWFLAKE_DATABASE: DEVOPS_DEMO
           SNOWFLAKE_SCHEMA: PUBLIC
-        run: snow sql -f scripts/Deploy.sql -x
+        run: snow sql -f Scripts/Deploy.sql -x
