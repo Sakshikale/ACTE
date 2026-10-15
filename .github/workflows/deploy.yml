@@ -43,4 +43,4 @@ jobs:
           SNOWFLAKE_WAREHOUSE: DEVOPS_WH
           SNOWFLAKE_DATABASE: DEVOPS_DEMO
           SNOWFLAKE_SCHEMA: PUBLIC
-        run: snow sql -f scripts/deploy.sql -x
+        run: snow sql -f scripts/Deploy.sql -x
